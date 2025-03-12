@@ -11,9 +11,6 @@ import com.example.cafelogue.databinding.FragmentCatalogueBinding
 class CatalogueFragment : Fragment() {
 
     private var _binding: FragmentCatalogueBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
